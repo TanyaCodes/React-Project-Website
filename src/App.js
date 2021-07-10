@@ -69,7 +69,7 @@ function App() {
              At Rocket.io we are passionate about software
           </Typography>
           <Typography variant="h5" className={classes.littleSpace} color="primary">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sodales congue tristique. Cras non pretium sem. Duis interdum lorem sit amet ligula pretium, sed rutrum urna semper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus egestas gravida ullamcorper.
+          Aerial silks is a type of performance in which one or more artists perform aerial acrobatics while hanging from a fabric. The fabric may be hung as two pieces, or a single piece, folded to make a loop, classified as hammock silks. Performers climb the suspended fabric without the use of safety lines and rely only on their training and skill to ensure safety. They use the fabric to wrap, suspend, drop, swing, and spiral their bodies into and out of various positions. Aerial silks may be used to fly through the air, striking poses and figures while flying. Some performers use dried or spray rosin on their hands and feet to increase the friction and grip on the fabric
           </Typography>
         </div>
         <div className={`${classes.grid} ${classes.bigSpace}`}>
