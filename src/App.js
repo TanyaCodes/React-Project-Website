@@ -1,5 +1,5 @@
 import { createMuiTheme, ThemeProvider, makeStyles } from '@material-ui/core/styles';
-import {Typography} from '@material-ui/core'
+import {Typography} from '@material-ui/core'; 
 import NavBar from './components/NavBar'
 import Grid from './components/Grid'
 import Footer from './components/Footer'
@@ -11,26 +11,6 @@ import TrendingUpIcon from '@material-ui/icons/TrendingUp';
 import ImportExportIcon from '@material-ui/icons/ImportExport';
 import ComputerIcon from '@material-ui/icons/Computer';
 import HttpIcon from '@material-ui/icons/Http';
-
-const styles = makeStyles({
-  wrapper: {
-    width: "65%",
-    margin: "auto",
-    textAlign: "center"
-  },
-  bigSpace: {
-    marginTop: "5rem"
-  },
-  littleSpace:{
-    marginTop: "2.5rem",
-  },
-  grid:{
-    display: "flex", 
-    justifyContent: "center",
-    alignItems: "center",
-    flexWrap: "wrap", 
-  },
-})
 
 const theme = createMuiTheme({
   palette: {
@@ -57,8 +37,28 @@ const theme = createMuiTheme({
   },
 });
 
+const styles = makeStyles({
+  wrapper: {
+    width: "65%",
+    margin: "auto",
+    textAlign: "center"
+  },
+  bigSpace: {
+    marginTop: "5rem"
+  },
+  littleSpace:{
+    marginTop: "2.5rem",
+  },
+  grid:{
+    display: "flex", 
+    justifyContent: "center",
+    alignItems: "center",
+    flexWrap: "wrap", 
+  },
+})
+
 function App() {
-  const classes = styles();
+  const classes = styles(); 
 
   return (
     <div className="App">
@@ -84,10 +84,8 @@ function App() {
         </div>
         <div className={classes.bigSpace}>
           <Footer/>
-          
         </div>
       </ThemeProvider>
-      
     </div>
   );
 }
